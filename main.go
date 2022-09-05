@@ -25,6 +25,18 @@ func main() {
 			utils.Logo()
 			path := utils.Loadfile()
 			utils.FileReader(path, "1")
+		} else if moduleinput == "2" {
+			screen.Clear()
+			screen.MoveTopLeft()
+			utils.Logo()
+			path := utils.Loadfile()
+			utils.FileReader(path, "2")
+		} else if moduleinput == "3" {
+			screen.Clear()
+			screen.MoveTopLeft()
+			utils.Logo()
+			path := utils.Loadfile()
+			utils.FileReader(path, "3")
 		}
 	}
 }
